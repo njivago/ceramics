@@ -51,7 +51,7 @@ const Hero = () => {
             <SwiperSlide key={url} className='!h-auto'>
               <Image
                 className="!h-3/4 inline-block"
-                src={`/images${url}`}
+                src={`/ceramics/images${url}`}
                 alt="person"
                 width={300}
                 height={340}

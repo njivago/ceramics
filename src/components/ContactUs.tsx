@@ -29,7 +29,7 @@ const ContactUs = () => {
         <h3>Наше місцезнаходження</h3>
         <iframe
           className="round-md shadow-md "
-          src="/ceramicshttps://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d757.4725622111852!2d29.05585421827252!3d50.31387928106633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472c8181aac371db%3A0x657e81d2af21e137!2sVolodymyrska%20St%2C%2044%2C%20Korostyshiv%2C%20Zhytomyrs&#39;ka%20oblast%2C%2012501!5e0!3m2!1sen!2sua!4v1710416019230!5m2!1sen!2sua"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d757.4725622111852!2d29.05585421827252!3d50.31387928106633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472c8181aac371db%3A0x657e81d2af21e137!2sVolodymyrska%20St%2C%2044%2C%20Korostyshiv%2C%20Zhytomyrs&#39;ka%20oblast%2C%2012501!5e0!3m2!1sen!2sua!4v1710416019230!5m2!1sen!2sua"
           loading="lazy"
           width="100%"
           height={400}

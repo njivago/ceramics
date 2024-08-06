@@ -32,9 +32,9 @@ const Header = () => {
         <ul className="hidden h-full gap-12 lg:flex">
           {NAV_LINKS.map((link) => (
             <Link
-            href={{ pathname: link.href, hash: link.key }}
-            className="regular-16 text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold"
-            key={link.key}
+              href={{ pathname: link.href, hash: link.key }}
+              className="regular-16 text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold"
+              key={link.key}
             >
               {link.label}
             </Link>
