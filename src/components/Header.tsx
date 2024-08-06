@@ -26,7 +26,7 @@ const Header = () => {
     <header className="sticky top-0 z-30 shadow-md terracotta">
       <nav className="flexBetween max-container padding-container py-5">
         <Link className="flex gap-1 items-center" href={{ pathname: '/', hash: 'home' }}>
-          <Image src="/ceramic.svg" alt="logo" width={30} height={30} />
+          <Image src="/ceramics/ceramic.svg" alt="logo" width={30} height={30} />
           CeramicsPrint
         </Link>
         <ul className="hidden h-full gap-12 lg:flex">
@@ -41,7 +41,7 @@ const Header = () => {
           ))}
         </ul>
         <Image 
-          src="/menu.png"
+          src="/ceramics/menu.png"
           alt="menu"
           width={32}
           height={32}

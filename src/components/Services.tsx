@@ -13,7 +13,7 @@ const Services = () => {
           <div className={`shadow-lg bg-white flex md:flex-col flex-row gap-5 rounded-lg p-6 w-full md:w-1/2 border-solid border-2 border-gray duration-1000  ${servicesInView ? 'translate-x-0 opacity-100' : 'translate-x-[-2rem] opacity-0'}`}>
             <Image 
               className={`mx-auto rounded-md transition-all duration-1000 mb-4`}
-              src="/images/ceramics.png" // Replace with the correct path to your image
+              src="/ceramics/images/ceramics.png" // Replace with the correct path to your image
               alt="Гарантія"
               width={360}
               height={420}
@@ -35,7 +35,7 @@ const Services = () => {
           </div>
           <Image
             className={`mx-auto transition-all duration-1000 rounded-md mb-4`}
-            src="/images/marmour.png" // Replace with the correct path to your image
+            src="/ceramics/images/marmour.png" // Replace with the correct path to your image
             alt="Власне виробництво" 
             width={360} 
             height={420}
@@ -53,7 +53,7 @@ const Services = () => {
         <div className="aspect-[16/9]">
           <Image 
             className={`mx-auto rounded-md transition-all duration-1000 mb-4 `}
-            src="/images/retouch.png" // Replace with the correct path to your image
+            src="/ceramics/images/retouch.png" // Replace with the correct path to your image
             alt="Гарантія" 
             width={360}
             height={420} 

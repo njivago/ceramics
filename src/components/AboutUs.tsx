@@ -14,7 +14,7 @@ const AboutUs = () => {
       <div className={`shadow-lg bg-white rounded-lg p-6 w-full md:w-1/2 border-solid transition-all duration-3000 border-2 border-gray duration-1000 md:hover:translate-y-10 ${aboutInView ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
         <Image 
           className={`mx-auto rounded-md transition-all duration-1000 mb-4 ${aboutInView ? 'opacity-100' : 'opacity-0'}`}
-          src="/images/guaranty.png" // Replace with the correct path to your image
+          src="/ceramics/images/guaranty.png" // Replace with the correct path to your image
           alt="Гарантія" 
           width={360} 
           height={420} 
@@ -28,7 +28,7 @@ const AboutUs = () => {
       <div className={`shadow-lg bg-white rounded-lg p-6 w-full transition-all duration-3000 md:w-1/2 border-solid border-2 border-gray duration-1000 md:hover:translate-y-0 ${aboutInView ? 'translate-y-10 opacity-100' : 'translate-y-0 opacity-0'}`}>
         <Image
           className={`mx-auto transition-all duration-1000 rounded-md mb-4 ${aboutInView ? 'translate-x-0 opacity-100' : 'translate-x-6 opacity-0'}`}
-          src="/images/prod.png" // Replace with the correct path to your image
+          src="/ceramics/images/prod.png" // Replace with the correct path to your image
           alt="Власне виробництво" 
           width={360} 
           height={420}
